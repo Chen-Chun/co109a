@@ -17,7 +17,7 @@
         }
     
 ## picture:
-<img src="./picture1/Not.jpg" style="zoom:70%" />
+<img src="./picture1/Not.jpg" height=400 weight=600 />
 
 # 2.And:
 
