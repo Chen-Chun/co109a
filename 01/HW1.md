@@ -1,4 +1,5 @@
-#1.Not
+#1.Not:
+
 ##code:
 
 /**
@@ -13,8 +14,12 @@ CHIP Not {
     PARTS:
     // Put your code here:
     Nand(a=in, b=in, out=out);
+    
+picture:
+<img src="‪D:\LeanaVScode\co109a\01\picture1\Not.jpg" style="zoom:70%" />
 
-#2.And
+#2.And:
+
 ##code:
 
 /**
@@ -31,8 +36,12 @@ CHIP And {
     // Put your code here:
     Nand(a=a,b=b,out=AnandB);
     Not(in=AnandB,out=out);
+    
+picture:
+<img src="‪D:\LeanaVScode\co109a\01\picture1\And.jpg" style="zoom:70%" />
 
-#3.Or
+#3.Or:
+
 ##code:
 
  /**
@@ -50,8 +59,12 @@ CHIP Or {
     Not(in=a,out=na);
     Not(in=b,out=nb);
     Nand(a=na,b=nb,out=out);
+    
+picture:
+<img src="‪D:\LeanaVScode\co109a\01\picture1\Or.jpg" style="zoom:70%" />
 
-#4.Xor
+#4.Xor:
+
 ##code:
 
 /**
@@ -70,8 +83,12 @@ CHIP Xor {
     And(a=na,b=b,out=nab);
     And(a=a,b=nb,out=anb);
     Or(a=nab,b=anb,out=out);
+    
+picture:
+<img src="‪D:\LeanaVScode\co109a\01\picture1\Xor.jpg" style="zoom:70%" />
 
-#5.Mux
+#5.Mux:
+
 ##code:
 
 /** 
@@ -90,8 +107,12 @@ CHIP Mux {
     And(a=a,b=nsel,out=ansel);
     And(a=b,b=sel,out=bsel);
     Or(a=ansel,b=bsel,out=out); 
+    
+picture:
+<img src="‪D:\LeanaVScode\co109a\01\picture1\Mux.jpg" style="zoom:70%" />
 
-#6.XMux
+#6.XMux:
+
 ##code:
 
 /**
@@ -109,4 +130,7 @@ CHIP DMux {
     Not(in=sel, out=nsel);
     And(a=nsel, b=in, out=a);
     And(a=sel, b=in, out=b);
+    
+picture:
+<img src="‪D:\LeanaVScode\co109a\01\picture1\DMux.jpg" style="zoom:70%" />
     
