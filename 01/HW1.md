@@ -1,6 +1,6 @@
-#1.Not:
+# 1.Not:
 
-##code:
+## code:
 
     PARTS: 
     /**
@@ -15,12 +15,12 @@
     Nand(a=in, b=in, out=out);
     }
     
-picture:
-<img src="/LeanaVScode/co109a/01/picture1/Not.jpg" style="zoom:70%" />
+## picture:
+<img src="‪D:/LeanaVScode/co109a/01/picture1/Not.jpg" style="zoom:70%" />
 
-#2.And:
+# 2.And:
 
-##code:
+## code:
 
 /**
  * And gate: 
@@ -40,9 +40,9 @@ CHIP And {
 picture:
 <img src="‪D:\LeanaVScode\co109a\01\picture1\And.jpg" style="zoom:70%" />
 
-#3.Or:
+# 3.Or:
 
-##code:
+## code:
 
  /**
  * Or gate:
@@ -60,12 +60,12 @@ CHIP Or {
     Not(in=b,out=nb);
     Nand(a=na,b=nb,out=out);
     
-picture:
+## picture:
 <img src="‪D:\LeanaVScode\co109a\01\picture1\Or.jpg" style="zoom:70%" />
 
-#4.Xor:
+# 4.Xor:
 
-##code:
+## code:
 
 /**
  * Exclusive-or gate:
@@ -84,12 +84,12 @@ CHIP Xor {
     And(a=a,b=nb,out=anb);
     Or(a=nab,b=anb,out=out);
     
-picture:
+## picture:
 <img src="‪D:\LeanaVScode\co109a\01\picture1\Xor.jpg" style="zoom:70%" />
 
-#5.Mux:
+# 5.Mux:
 
-##code:
+## code:
 
 /** 
  * Multiplexor:
@@ -108,12 +108,12 @@ CHIP Mux {
     And(a=b,b=sel,out=bsel);
     Or(a=ansel,b=bsel,out=out); 
     
-picture:
+## picture:
 <img src="‪D:\LeanaVScode\co109a\01\picture1\Mux.jpg" style="zoom:70%" />
 
-#6.XMux:
+# 6.XMux:
 
-##code:
+## code:
 
 /**
  * Demultiplexor:
@@ -131,6 +131,6 @@ CHIP DMux {
     And(a=nsel, b=in, out=a);
     And(a=sel, b=in, out=b);
     
-picture:
+## picture:
 <img src="‪D:\LeanaVScode\co109a\01\picture1\DMux.jpg" style="zoom:70%" />
     
