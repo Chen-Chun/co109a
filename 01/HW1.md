@@ -2,21 +2,21 @@
 
 ##code:
 
-/**
- * Not gate:
- * out = not in
- */
-
-CHIP Not {
-    IN in;
-    OUT out;
-
-    PARTS:
+    PARTS: 
+    /**
+    * Not gate:
+    * out = not in
+    */ 
+    CHIP Not 
+    { IN in;
+      OUT out;
+    
     // Put your code here:
     Nand(a=in, b=in, out=out);
+    }
     
 picture:
-<img src="‪D:\LeanaVScode\co109a\01\picture1\Not.jpg" style="zoom:70%" />
+<img src="/LeanaVScode/co109a/01/picture1/Not.jpg" style="zoom:70%" />
 
 #2.And:
 
