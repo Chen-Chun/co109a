@@ -16,7 +16,7 @@
     }
     
 ## picture:
-<img src="‪D:/LeanaVScode/co109a/01/picture1/Not.jpg" style="zoom:70%" />
+<img src="picture1/Not.jpg" style="zoom:70%" />
 
 # 2.And:
 
