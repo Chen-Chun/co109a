@@ -1,4 +1,4 @@
-// This file is part of www.nand2tetris.org
+ // This file is part of www.nand2tetris.org
 // and the book "The Elements of Computing Systems"
 // by Nisan and Schocken, MIT Press.
 // File name: projects/01/Xor.hdl
@@ -14,4 +14,10 @@ CHIP Xor {
 
     PARTS:
     // Put your code here:
+    Not(in=a,out=na);
+    Not(in=b,out=nb);
+    And(a=na,b=b,out=nab);
+    And(a=a,b=nb,out=anb);
+    Or(a=nab,b=anb,out=out);
+
 }
