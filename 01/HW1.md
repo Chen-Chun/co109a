@@ -112,7 +112,7 @@ picture:
 ## picture:
 <img src="./picture1\Mux.jpg" style="zoom:70%" />
 
-# 6.XMux:
+# 6.DMux:
 
 ## code:
 
@@ -133,5 +133,5 @@ picture:
         And(a=sel, b=in, out=b);
     
 ## picture:
-<img src="./picture1\XMux.jpg" style="zoom:70%" />
+<img src="./picture1\DMux.jpg" style="zoom:70%" />
     
