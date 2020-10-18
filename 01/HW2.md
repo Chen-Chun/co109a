@@ -30,6 +30,7 @@
     }
     
   ## picture:
+  <img src="./picture1/Not16.jpg" height=400 weight=600 />
   
 # 8.And16
   ## code:
@@ -63,6 +64,7 @@
       }
       
   ## picture:
+  <img src="./picture1/And16.jpg" height=400 weight=600 />
   
 # 9.Or16
   ## code:
@@ -96,6 +98,7 @@
       }
      
   ## picture:
+  <img src="./picture1/Or16.jpg" height=400 weight=600 />
   
 # 10.Mux16
   ## code:
@@ -130,6 +133,7 @@
         }
         
   ## picture:
+  <img src="./picture1/Mux16.jpg" height=400 weight=600 />
 
 # 11.Or8Way
   ## code:
@@ -154,6 +158,7 @@
         }
         
   ## picture:
+  <img src="./picture1/Or8Way.jpg" height=400 weight=600 />
   
 # 12.Mux4Way16
   ## code:
@@ -175,6 +180,9 @@
             Mux16(a=c,b=d,sel=sel[0],out=f);
             Mux16(a=e,b=f,sel=sel[1],out=out);
         }
+        
+   ## picture:
+  <img src="./picture1/Mux4Way16.jpg" height=400 weight=600 />
   
 # 13.Mux8Way16
   ## code:
@@ -204,6 +212,7 @@
         }
     
   ## picture:
+  <img src="./picture1/Mux8Way16.jpg" height=400 weight=600 />
   
 # 14.DMux4Way
   ## code:
@@ -227,6 +236,7 @@
           }
           
   ## picture:
+  <img src="./picture1/DMux4Way.jpg" height=400 weight=600 />
     
 # 14.DMux8Way
   ## code:
@@ -254,5 +264,6 @@
           }
           
    ## picture:
+   <img src="./picture1/DMux8Way.jpg" height=400 weight=600 />
    
   
