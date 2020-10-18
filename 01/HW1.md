@@ -39,7 +39,7 @@
         Not(in=AnandB,out=out);
     
 picture:
-<img src="picture1\And.jpg" style="zoom:70%" />
+<img src="./picture1\And.jpg" style="zoom:70%" />
 
 # 3.Or:
 
@@ -62,7 +62,7 @@ picture:
         Nand(a=na,b=nb,out=out);
     
 ## picture:
-<img src="‪D:\LeanaVScode\co109a\01\picture1\Or.jpg" style="zoom:70%" />
+<img src="./picture1\Or.jpg" style="zoom:70%" />
 
 # 4.Xor:
 
@@ -86,7 +86,7 @@ picture:
         Or(a=nab,b=anb,out=out);
     
 ## picture:
-<img src="‪D:\LeanaVScode\co109a\01\picture1\Xor.jpg" style="zoom:70%" />
+<img src="./picture1\Xor.jpg" style="zoom:70%" />
 
 # 5.Mux:
 
@@ -110,9 +110,9 @@ picture:
         Or(a=ansel,b=bsel,out=out); 
     
 ## picture:
-<img src="‪D:\LeanaVScode\co109a\01\picture1\Mux.jpg" style="zoom:70%" />
+<img src="./picture1\Mux.jpg" style="zoom:70%" />
 
-# 6.XMux:
+# 6.DMux:
 
 ## code:
 
@@ -133,5 +133,5 @@ picture:
         And(a=sel, b=in, out=b);
     
 ## picture:
-<img src="‪D:\LeanaVScode\co109a\01\picture1\DMux.jpg" style="zoom:70%" />
+<img src="./picture1\DMux.jpg" style="zoom:70%" />
     
