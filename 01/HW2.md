@@ -133,7 +133,7 @@
         }
         
   ## picture:
-  <img src="./picture1/Mux16.jpg" height=400 weight=600 />
+  <img src="./picture1/Max16.jpg" height=400 weight=600 />
 
 # 11.Or8Way
   ## code:
@@ -182,7 +182,7 @@
         }
         
    ## picture:
-  <img src="./picture1/Mux4Way16.jpg" height=400 weight=600 />
+  <img src="./picture1/Mux4Wau16.jpg" height=400 weight=600 />
   
 # 13.Mux8Way16
   ## code:
