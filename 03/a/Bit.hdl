@@ -15,4 +15,7 @@ CHIP Bit {
 
     PARTS:
     // Put your code here:
+    Mux(b=in,a=o,sel=load,out=Muxab);
+    DFF(in=Muxab,out=o,out=out);
+    //out有兩個是因為一個是用來讓他回去再次使用
 }
