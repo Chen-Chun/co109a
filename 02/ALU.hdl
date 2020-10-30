@@ -43,4 +43,26 @@ CHIP ALU {
 
     PARTS:
    // Put you code here:
+   Mux16(a=x,b=false,sel=zx,out=x0);
+   Not16(in=x0,out=notx0);
+   Mux16(a=x0,b=notx0,sel=nx,out=x0nxnotx0);
+   //mux16的sel=0時，選擇a，mux16的sel=1時，選擇b
+   Mux16(a=y,b=false,sel=zy,out=y0);
+   Not16(in=y0,out=noty0);
+   Mux16(a=y0,b=noty0,sel=ny,out=y0nynoty0);
+
+   Add16(a=x0nxnotx0,b=y0nynoty0,out=aaddb);
+   And16(a=x0nxnotx0,b=y0nynoty0,out=aandb);
+   
+   Mux16(a=aandb,b=aaddb,sel=f,out=f0);
+   Not16(in=f0,out=notf0);
+   Mux16(a=f0,b=notf0,sel=no,out[0..7]=no0A,out[8..15]=no0B,out[15]=ng,out=out);
+   // Or16Way(in=no0, out=nzr);
+   // Not(in=nzr, out=zr);
+   Or8Way(in=no0A,out=nzrA);
+   Not(in=nzrA,out=zrA);
+   Or8Way(in=no0B,out=nzrB);
+   Not(in=nzrB,out=zrB]);
+   Or(a=nzrA,b=nzrB,out=nzrAB);
+
 }
