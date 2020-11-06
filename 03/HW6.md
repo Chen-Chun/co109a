@@ -4,7 +4,7 @@
      預設
      
 ## picture:
-<img src="./picture3/DFF.jpg" height=400 weight=600 />
+<img src="./picture3/DFF.jpg" height=200 weight=600 />
 
 # Bit
 
