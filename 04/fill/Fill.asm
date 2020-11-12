@@ -12,3 +12,37 @@
 // the screen should remain fully clear as long as no key is pressed.
 
 // Put your code here.
+
+
+(WHILE1)
+@16384
+D=A
+@i
+M=D
+@24576
+D=A
+@i
+D=M-D  //計算16384~24576間有多少數字
+@END2
+D;JGE   
+@color
+M=0
+@24576
+D=M
+@NEXT
+D;JEQ
+@COLOR
+M=-1
+(NEXT)
+@color
+D=M
+@i
+A=M
+M=D
+@i
+M=M+1
+@WHILE2
+0;JMP
+(END2)
+@WHILE1
+0;JMP
