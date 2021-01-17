@@ -79,8 +79,4 @@ CHIP CPU {
     //writeM
     And(a=isC, b=d3, out=writeM)
 
-
-
-
-
 }
