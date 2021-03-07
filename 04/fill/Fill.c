@@ -21,8 +21,6 @@ WHILE1:
     goto WHILE1
 EXIT:
 
-
-
 //完整版
 WHILE1:                       //  (WHILE1)
     int i = 16384;            //  @16384, D=A, @i, M=D
